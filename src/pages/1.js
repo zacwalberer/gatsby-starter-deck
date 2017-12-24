@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 
 export default ({ transition }) => (
   <div style={transition && transition.style}>
-    <h1>Gatsby Deck</h1>
-    <p>Create presentations using Gatsby & React.</p>
+    <h1>Infusionsoft</h1>
+    <p>A brief overview of my product design work</p>
   </div>
 );
