@@ -3,7 +3,9 @@ import Link from 'gatsby-link';
 
 export default ({ transition }) => (
   <div style={transition && transition.style}>
-    <h2>What does it do?</h2>
-    <p>Functionality and experience of the flagship product on a mobile device.</p>
+    <img src="https://i.imgur.com/PnbINJ6.gif" alt="Monkey" />
+    <p>
+      Star it on <a href="//github.com/fabe/gatsby-deck">GitHub</a> 🌟
+    </p>
   </div>
 );

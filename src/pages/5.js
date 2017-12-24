@@ -1,11 +1,11 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Quote from '../components/Quote';
 
 export default ({ transition }) => (
   <div style={transition && transition.style}>
-    <img src="https://i.imgur.com/PnbINJ6.gif" alt="Monkey" />
-    <p>
-      Star it on <a href="//github.com/fabe/gatsby-deck">GitHub</a> 🌟
-    </p>
+    <Quote cite="Infusionsoft users">
+      When I’m away from my computer, I want to view and manage my contacts and deals, so I can appropriately serve them.
+    </Quote>
   </div>
 );
