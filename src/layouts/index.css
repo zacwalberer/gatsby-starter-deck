@@ -65,15 +65,6 @@ cite::before {
   content: '\2014\00a0';
 }
 
-content {
-  font-size: 1rem;
-  font-weight: normal;
-
-  width: 50vw;
-
-  text-align: left;
-}
-
 pre {
   font-size: 1rem;
 

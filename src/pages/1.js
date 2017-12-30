@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 
 export default ({ transition }) => (
   <div style={transition && transition.style}>
-    <h1>Infusionsoft</h1>
-    <p>A brief overview of my product design work at Infusionsoft</p>
+    <h1>Product Design at Infusionsoft</h1>
+    <p>A brief overview of my work at Infusionsoft</p>
   </div>
 );

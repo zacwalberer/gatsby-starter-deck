@@ -7,9 +7,13 @@
     "babel-plugin-include": "^1.2.0",
     "gatsby": "^1.9.119",
     "gatsby-cli": "^1.1.23",
+    "gatsby-image": "^1.0.31",
     "gatsby-link": "^1.6.28",
     "gatsby-plugin-offline": "^1.0.10",
     "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sharp": "^1.6.24",
+    "gatsby-source-filesystem": "^1.5.11",
+    "gatsby-transformer-sharp": "^1.6.16",
     "history": "^4.7.2",
     "react-transition-group": "^2.2.1"
   },
