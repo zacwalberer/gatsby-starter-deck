@@ -4,11 +4,8 @@ import Quote from '../components/Quote';
 
 export default ({ transition }) => (
   <div style={transition && transition.style}>
-    <Quote cite="Don Norman">
-      Inscrutable icons litter the face of the devices even though the research
-      community has long demonstrated that people cannot remember the meaning of
-      more than a small number of icons […] Who can remember what each icon
-      means? Not me.
+    <Quote cite="Frank Chimero">
+      It is easier to recognize failures of technique rather than those of strategy or purpose, and simpler to ask 'How do I paint this tree?' than to answer 'Why does this painting need a tree in it?'
     </Quote>
   </div>
 );

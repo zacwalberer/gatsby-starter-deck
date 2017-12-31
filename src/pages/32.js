@@ -1,9 +1,12 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import ImageOne from '../images/ds-4.png';
+import Image from '../components/Image';
 
 export default ({ transition }) => (
   <div style={transition && transition.style}>
-    <img src="https://i.imgur.com/9YPEijI.gif" alt="BB8" />
-    <p>Small inventory of system <a href="https://invis.io/WACJBF3XG" target="_blank">Invision</a> 🖥</p>
+    <Image>
+      <img style={{ flex: '0 1 auto', height: '100%' }} src={ImageOne} />
+    </Image>
   </div>
 );
